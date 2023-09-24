@@ -16,7 +16,7 @@ detector = dlib.get_frontal_face_detector()
 
 # Function to compare faces
 def compare_faces(face_data1, face_data2):
-    # Implement your face comparison logic here
+    # Use the logic from src file to compares faces
     # Return a similarity score (e.g., percentage match)
     # For simplicity, assume a static 80% match threshold
     return 80
